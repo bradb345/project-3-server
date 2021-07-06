@@ -44,9 +44,9 @@ All groups were given a week to create a fullstack MERN App using a custom build
 
 ## Members
 
-Craig Clement - [Github](https://github.com/CraigClem)
-Dan Fullerton - [Github](https://github.com/sirdantheawesome)
-Bradley Bernard - [Github](https://github.com/bradb345)
+- Craig Clement - [Github](https://github.com/CraigClem)
+- Dan Fullerton - [Github](https://github.com/sirdantheawesome)
+- Bradley Bernard - [Github](https://github.com/bradb345)
 
 ## Approach
 
