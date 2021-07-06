@@ -38,9 +38,9 @@ All groups were given a week to create a fullstack MERN App using a custom build
     -   VS Code
 
 ## Deployment 
-click [here](https://peek3.netlify.app) to see the deployed App.
-click [here](https://github.com/bradb345/project-3-server) to see the Server Github repository
-click [here](https://github.com/bradb345/project-3-client) to see the Client Github repository
+- click [here](https://peek3.netlify.app) to see the deployed App.
+- click [here](https://github.com/bradb345/project-3-server) to see the Server Github repository
+- click [here](https://github.com/bradb345/project-3-client) to see the Client Github repository
 
 ## Members
 
