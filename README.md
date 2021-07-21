@@ -310,3 +310,25 @@ Registered feed
 
 Profile feed
 ![Profilefeed](images/ProfileScreen.png)
+
+### Wins and Challenges 
+
+#### - Challenges
+
+- This was the first project where we used GitHub to collaborate in our coding effort. It was a rough start, several merge conflicts, but we pulled through in the end. 
+
+#### - Wins
+
+-  Getting the status update functionality working on the first try was a personal win for me. I really felt like a coding genius at that point. It was short lived though as the filtering functionality I was working on broke repeatedly. 
+
+
+### Key Learning
+
+- MERN stack work flow
+- Github collaboration 
+- Building a Backend API and connecting it to the Frontend.
+
+### Future Improvements 
+- I’d like to add cloudinary functionality so that users could upload pictures straight to the site rather than use URLs.
+- Add a peek coin market place where users could spend their peek coin.
+- Add peek coin gifting.
