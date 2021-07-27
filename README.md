@@ -17,7 +17,7 @@ All groups were given a week to create a fullstack MERN App using a custom build
 
 -   **Front-End**:
     
-    -   CSS3 + SASS
+    -   CSS + SASS
     -   HTML5
     -   JavaScript (ES6)
     -   React.js
