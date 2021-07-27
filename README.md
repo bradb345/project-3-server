@@ -56,7 +56,7 @@ All groups were given a week to create a fullstack MERN App using a custom build
 
 - We put together a rough sketch of what the site will look like with a rough idea of how it will function.
 
-- 
+
 
 Login
 ![Login](images/login.png)
@@ -181,7 +181,7 @@ router.route('/register')
 
 #### Feeds
 
-- -   For the posts, I made a try catch async function that makes a GET request to the backend server to get all the posts. After awaiting the request, If the request was successful I set the response data to state, if the request failed I set the isError state to true. If there was no error but the posts state is still null, then that means that isLoading is true. If any of these states and constants are true then a message is conditionally rendered to the page.
+- For the posts, I made a try catch async function that makes a GET request to the backend server to get all the posts. After awaiting the request, If the request was successful I set the response data to state, if the request failed I set the isError state to true. If there was no error but the posts state is still null, then that means that isLoading is true. If any of these states and constants are true then a message is conditionally rendered to the page.
 
 ```js
 const [posts, setPosts] = React.useState(null)
@@ -189,7 +189,7 @@ const [isError, setIsError] = React.useState(false)
 const isLoading = !posts && !isError
   ```
 
--In the useEffect function I set the popup and input props so that when those values change it will trigger a re-render to the page.
+- In the useEffect function I set the popup and input props so that when those values change it will trigger a re-render to the page.
 
 ```js
 React.useEffect(() => {
@@ -327,7 +327,7 @@ Profile feed
 ### Key Learning
 
 - This was the first time using the MERN stack work flow. Learning how Mongoose and Express work together was key to making this project function. 
-- Github collaboration is a new new tool in my coding toolbelt. 
+- Im now able to collaborate with other team members using Github. I've gained a better understanding of branching and merging.   
 - Building a Backend API and connecting it to the Frontend.
 
 ### Future Improvements 
