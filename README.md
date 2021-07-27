@@ -56,6 +56,8 @@ All groups were given a week to create a fullstack MERN App using a custom build
 
 - We put together a rough sketch of what the site will look like with a rough idea of how it will function.
 
+- 
+
 Login
 ![Login](images/login.png)
 Main feed
@@ -66,7 +68,7 @@ Profile feed
 ### - Backend
 
 ####  Models
-- We had Two models, Posts and Users. The User model 6 keys, email, username, password, image, summary and peekcoin. once the user typed their password it would be encrypted using bcrypt and also salted with bcrypt. the password and email were then hidden so that those keys would not show up in a request.
+- We had Two models, Posts and Users. The User model 6 keys, email, username, password, image, summary and peekcoin. Once the user typed their password it would be encrypted using bcrypt and also salted with bcrypt. The password and email were then hidden so that those keys would not show up in a request.
 
 ```js
 const userSchema = new mongoose.Schema({
@@ -179,7 +181,7 @@ router.route('/register')
 
 #### Feeds
 
-- -   For the posts, I made a try catch async function that makes a GET request to the backend server to get all the posts. after awaiting the request, If the request was successful I set the response data to state, if the request failed I set the isError state to true. If there was no error but the posts state is still null, then that means that isLoading is true. if any of these states and constants are true then a message is conditionally rendered to the page.
+- -   For the posts, I made a try catch async function that makes a GET request to the backend server to get all the posts. After awaiting the request, If the request was successful I set the response data to state, if the request failed I set the isError state to true. If there was no error but the posts state is still null, then that means that isLoading is true. If any of these states and constants are true then a message is conditionally rendered to the page.
 
 ```js
 const [posts, setPosts] = React.useState(null)
@@ -324,11 +326,15 @@ Profile feed
 
 ### Key Learning
 
-- MERN stack work flow
-- Github collaboration 
+- This was the first time using the MERN stack work flow. Learning how Mongoose and Express work together was key to making this project function. 
+- Github collaboration is a new new tool in my coding toolbelt. 
 - Building a Backend API and connecting it to the Frontend.
 
 ### Future Improvements 
 - I’d like to add cloudinary functionality so that users could upload pictures straight to the site rather than use URLs.
 - Add a peek coin market place where users could spend their peek coin.
 - Add peek coin gifting.
+
+### Bugs 
+
+- In our testing, we didnt encounter any bugs. 
