@@ -50,12 +50,13 @@ All groups were given a week to create a fullstack MERN App using a custom build
 
 ## Approach
 
-- After a short brainstorming session we decided to create a Social Media App called "PEEK" that was similar to Facebook and Instagram but rewarded the user with points for post interaction.
+- Each group was placed in their own breakout room over zoom and that was how we would work the whole week. After a short brainstorming session we decided to create a Social Media App called "PEEK" that was similar to Facebook and Instagram but rewarded the user with points for post interaction.
+
+
 
 ### Layout
 
 - We put together a rough sketch of what the site will look like with a rough idea of how it will function.
-
 
 
 Login
@@ -67,8 +68,10 @@ Profile feed
 
 ### - Backend
 
+- The group decided to code the backend first. We each chose functions that needed to be added and coded them freely until the backend api was complete.   
+
 ####  Models
-- We had Two models, Posts and Users. The User model 6 keys, email, username, password, image, summary and peekcoin. Once the user typed their password it would be encrypted using bcrypt and also salted with bcrypt. The password and email were then hidden so that those keys would not show up in a request.
+- I added Two models, Posts and Users. The User model 6 keys, email, username, password, image, summary and peekcoin. Once the user typed their password it would be encrypted using bcrypt and also salted with bcrypt. The password and email were then hidden so that those keys would not show up in a request.
 
 ```js
 const userSchema = new mongoose.Schema({
@@ -113,7 +116,7 @@ userSchema.plugin(mongooseHidden({ defaultHidden: { password: true, email: true,
 export default mongoose.model('User', userSchema)
 ``` 
 
-- Posts also had 6 keys, title, text, image, userlikes, user and comments.
+- I also added 6 keys to the Post.js file, title, text, image, userlikes, user and comments.
 
 ```js
 const commentSchema = new mongoose.Schema({
@@ -327,7 +330,7 @@ Profile feed
 ### Key Learning
 
 - This was the first time using the MERN stack work flow. Learning how Mongoose and Express work together was key to making this project function. 
-- Im now able to collaborate with other team members using Github. I've gained a better understanding of branching and merging.   
+- I'm now able to collaborate with other team members using Github. I've gained a better understanding of branching and merging.   
 - Building a Backend API and connecting it to the Frontend.
 
 ### Future Improvements 
